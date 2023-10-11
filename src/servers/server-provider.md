@@ -12,7 +12,7 @@
 
 You can connect to any of the supported server providers when you need through Settings > Server Providers.
 
-<img :src="$withBase('/assets/img/docs/creating-new-server-provider.png')"  width="350">
+<img :src="$withBase('/assets/img/docs/creating-new-server-provider.png')">
 
 ## Supported Server Providers
 
