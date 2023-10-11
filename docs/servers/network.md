@@ -25,4 +25,6 @@ As part of the provisioning process, Virtiz will automatically set up three rule
 - **HTTP:** Allow port 80 traffic from any IP Address
 - **HTTPS:** Allow port 443 traffic from any IP Address
 
-> You should never removing the rule that permits SSH traffic to your server because doing so will prevent Virtiz from establishing a connection to or managing your server.
+::: danger SSH
+You should never removing the rule that permits SSH traffic to your server because doing so will prevent Virtiz from establishing a connection to or managing your server.
+:::

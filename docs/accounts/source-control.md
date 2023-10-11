@@ -33,8 +33,9 @@ You can connect to any of the supported source control providers when you need t
 ### Unlinking Providers
 
 You can unlink a connected source control provider by clicking the Disconnect button.
-
-> If you unlink a source control provider, you will be unable to deploy projects that depend on it in the future. Existing deployments will be unaffected.
+::: warning
+If you unlink a source control provider, you will be unable to deploy projects that depend on it in the future. Existing deployments will be unaffected.
+:::
 
 ## Common Problems
 
