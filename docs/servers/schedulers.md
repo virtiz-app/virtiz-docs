@@ -3,7 +3,7 @@
 ---
 
 - [Introduction](#introduction)
-- [Configuring](#configuring)
+- [Adding Scheduler](#adding-scheduler)
 
 ## Introduction
 
@@ -11,7 +11,7 @@ Scheduler is a [Cron Job](https://en.wikipedia.org/wiki/Cron), functions as a jo
 Individuals who establish and manage software environments employ cron to arrange for jobs, such as commands or shell scripts, to be executed at regular, predetermined times, dates, or intervals.
 Setting a particular command to a cron job ensures that the command is executed in accordance with the scheduled time you've established.
 
-# Configuring
+# Adding Scheduler
 
 When adding a new scheduler, you should supply the following information:
 

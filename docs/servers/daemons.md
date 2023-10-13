@@ -3,13 +3,13 @@
 ---
 
 - [Introduction](#introduction)
-- [Configuring](#configuring)
+- [Adding Daemon](#adding-daemon)
 
 ## Introduction
 
 Daemon is a [Supervisor](http://supervisord.org/), that allows its users to control a number of processes on UNIX-like operating systems, when dealing with scripts like [Laravel Horizon](https://laravel.com/docs/master/horizon) or similar tasks that require background execution.
 
-## Configuring
+## Adding Daemon
 
 When adding a new daemon, you should supply the following information:
 

@@ -32,6 +32,7 @@ export default defineUserConfig({
                     '/servers/daemons.md',
                     '/servers/schedulers.md',
                     '/servers/network.md',
+                    '/servers/ssh-keys.md',
                 ]
             },
         ],
