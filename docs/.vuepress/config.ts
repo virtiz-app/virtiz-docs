@@ -4,7 +4,10 @@ import {searchPlugin} from "@vuepress/plugin-search";
 export default defineUserConfig({
     lang: 'en-US',
     title: 'Virtiz',
+    head: [['link', { rel: 'icon', href: '/assets/img/favicon.png' }]],
     theme: defaultTheme({
+        repo: 'virtiz-app/virtiz-docs',
+        docsDir: 'docs',
         logo: '/assets/img/logo.svg',
         logoDark: '/assets/img/logo-dark.svg',
         sidebarDepth: 0,
@@ -18,23 +21,22 @@ export default defineUserConfig({
             {
                 text: 'Accounts',
                 children: [
-                    '/accounts/source-control'
+                    '/accounts/source-control.md'
                 ]
             },
             {
                 text: 'Servers',
                 children: [
-                    '/servers/server-provider',
-                    '/servers/php',
-                    '/servers/daemons',
-                    '/servers/network',
+                    '/servers/server-provider.md',
+                    '/servers/php.md',
+                    '/servers/daemons.md',
+                    '/servers/schedulers.md',
+                    '/servers/network.md',
                 ]
             },
         ],
     }),
     plugins: [
-        searchPlugin({
-            // options
-        }),
+        searchPlugin({}),
     ],
 })
