@@ -15,7 +15,7 @@ It uses SSH keys to verify and establish a secure connection over this protocol 
 After adding your SSH key to your server, you may SSH into the server using username `virtiz` without a password:
 
 ```shell
-  ssh virtiz@SERVERS_PUBLIC_IP_ADDRESS
+  ssh virtiz@SERVER_PUBLIC_IP_ADDRESS
 ```
 
 ## Generating SSH Key

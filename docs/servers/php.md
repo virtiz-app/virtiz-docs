@@ -37,10 +37,13 @@ You have the option to uninstall a specific version of PHP, provided that:
 ## Common PHP Settings
 
 ### Max File Upload Size
+
 To modify the maximum file upload size, navigate to the PHP section of the server management dashboard. Specify the desired value in megabytes. For context, 1024MB is equivalent to 1GB.
 
 ### Max Execution Time
+
 To adjust the maximum execution time, access the PHP section within the server management dashboard. Provide the desired value in seconds.
 
 ### OPcache
+
 Enhancing PHP OPcache for production involves configuring it to cache your compiled PHP code in memory, resulting in a significant performance boost. If you decide to optimize OPcache for a production environment, it is essential to ensure that your deployment script includes a PHP-FPM service reload step at the conclusion of each deployment.
