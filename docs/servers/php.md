@@ -30,7 +30,7 @@ When a new PHP version is installed through Forge, it automatically sets up and 
 
 You have the option to uninstall a specific version of PHP, provided that:
 
-1. The version you wish to uninstall is not being utilized by any existing projects.
+1. The version you wish to uninstall is not being utilized by any existing sites.
 2. There are alternative versions already installed.
 3. The version you wish to uninstall is not the default version for the command-line interface (CLI) on the server.
 

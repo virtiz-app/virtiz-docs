@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Virtiz can use source providers to access your project's codebase, allowing for continuous and easy application deployment. Currently supports github and gitlab, but we intend to add more git providers in the future.
+Virtiz can use source providers to access your site's codebase, allowing for continuous and easy application deployment. Currently supports github and gitlab, but we intend to add more git providers in the future.
 
 ## Supported Providers
 
@@ -34,7 +34,7 @@ You can connect to any of the supported source control providers when you need t
 
 You can unlink a connected source control provider by clicking the Disconnect button.
 ::: warning
-If you unlink a source control provider, you will be unable to deploy projects that depend on it in the future. Existing deployments will be unaffected.
+If you unlink a source control provider, you will be unable to deploy sites that depend on it in the future. Existing deployments will be unaffected.
 :::
 
 ## Common Problems

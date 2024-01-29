@@ -24,7 +24,7 @@ After connect your preferred server provider, just create a new server. You can 
 - UFW firewall
 - Supervisor
 
-After that it is available for you to manage visually: new projects, SSL certificates, scheduled jobs, daemons, SSH keys, deploys, and much more.
+After that it is available for you to manage visually: new sites, SSL certificates, scheduled jobs, daemons, SSH keys, deploys, and much more.
 
 ## Bug report
 
