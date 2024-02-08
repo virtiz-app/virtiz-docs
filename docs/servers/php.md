@@ -24,7 +24,7 @@ After the server is successfully created, Virtiz simplifies the process of insta
 
 To add more PHP versions, you have the option to utilize the PHP tab within the server's management dashboard. Once an additional PHP version is installed, you can choose it during site creation or switch to it for an existing site.
 
-When a new PHP version is installed through Forge, it automatically sets up and configures the PHP-FPM process specific to that version. Consequently, your server will be capable of running multiple PHP versions concurrently.
+When a new PHP version is installed through Virtiz, it automatically sets up and configures the PHP-FPM process specific to that version. Consequently, your server will be capable of running multiple PHP versions concurrently.
 
 ### Uninstalling additional PHP Versions
 

@@ -63,4 +63,4 @@ Adding Digital Ocean as a provider is a straightforward process, generate your A
 
 ### Hetzner
 
-API tokens for Hetzner are site-specific. When working with Hetzner Sites, it's essential to verify that Virtiz holds an API token for each distinct Hetzner Site you're utilizing.
+API tokens for Hetzner are project-specific. When working with Hetzner Projects, it's essential to verify that Virtiz holds an API token for each distinct Hetzner Project you're utilizing.
